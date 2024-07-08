@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gcloud functions deploy $npm_package_config_functionName --gen2 --runtime=nodejs20 --region=asia-northeast1 --source=. --entry-point=entryPoint --trigger-http --allow-unauthenticated"
+    "deploy": "gcloud functions deploy $npm_package_config_functionName --gen2 --runtime=nodejs20 --region=asia-northeast1 --source=. --entry-point=entryPoint --trigger-http --allow-unauthenticated",
+    "deploy:local": "npx @google-cloud/functions-framework --target=entryPoint"
   },
   "author": "",
   "license": "ISC",
