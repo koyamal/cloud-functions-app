@@ -13,5 +13,5 @@ functions.http('entryPoint', (req, res) => {
     console.log('under 30');
     result.push("under 30")
   }
-  res.send(result);
+  res.send(`<h1 style="color: blue">${result[0]}</h1>`);
 });
