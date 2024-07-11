@@ -8,10 +8,10 @@ functions.http('entryPoint', (req, res) => {
   const result = [];
   if (now.getSeconds() > 30) {
     console.log('over 30');
-    result.push("over 30");
+    result.push('over 30');
   } else {
     console.log('under 30');
-    result.push("under 30")
+    result.push('under 30');
   }
   res.send(`<h1 style="color: blue">${result[0]}</h1>`);
 });
