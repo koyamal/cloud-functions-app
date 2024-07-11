@@ -4,14 +4,13 @@ const functions = require('@google-cloud/functions-framework');
 // when you make an HTTP request to the deployed function's endpoint.
 functions.http('entryPoint', (req, res) => {
   const now = new Date();
-  console.log(now);
   const result = [];
-  if (now.getSeconds() > 30) {
-    console.log('over 30');
-    result.push('over 30');
+  if (now.getHours() > 12) {
+    console.log('over 12');
+    result.push('over 12');
   } else {
-    console.log('under 30');
-    result.push('under 30');
+    console.log('under 12');
+    result.push('under 12');
   }
   res.send(`<h1 style="color: blue">${result[0]}</h1>`);
 });
