@@ -3,3 +3,5 @@ const look = (handleLook) => {
   handleLook();
   console.log('look done');
 }
+
+export {look};
