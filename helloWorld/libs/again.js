@@ -1,6 +1,6 @@
-const again = (handleLook) => {
+const again = (handleAgain) => {
   console.log('again');
-  handleLook();
+  handleAgain();
   console.log('again done');
 }
 
