@@ -1,6 +1,6 @@
-const back = (handleLook) => {
+const back = (handleBack) => {
   console.log('back');
-  handleLook();
+  handleBack();
   console.log('back done');
 }
 
