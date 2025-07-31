@@ -4,4 +4,4 @@ const look = (handleLook) => {
   console.log('look done');
 }
 
-export {look};
+exports.default = { look };
