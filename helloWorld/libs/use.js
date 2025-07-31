@@ -1,4 +1,4 @@
-import { look } from "./look";
+const look = require("./look");
 
 look(() => {
   console.log('This is look');
