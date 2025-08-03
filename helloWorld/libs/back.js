@@ -4,4 +4,4 @@ const back = (handleBack) => {
   console.log('back done');
 }
 
-export {back};
+exports.back = back;
