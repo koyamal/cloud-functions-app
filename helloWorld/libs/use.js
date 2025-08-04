@@ -1,8 +1,8 @@
 const libs = require("./look");
-libs.look.look(() => {
+libs.libs.look(() => {
   console.log('This is look');
 });
 
-libs.look.back(() => {
+libs.libs.back(() => {
   console.log('This is back');
 });
