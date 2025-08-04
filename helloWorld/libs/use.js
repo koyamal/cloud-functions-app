@@ -4,5 +4,5 @@ libs.look.look(() => {
 });
 
 libs.look.back(() => {
-  console.log('This is look');
+  console.log('This is back');
 });
