@@ -4,4 +4,12 @@ const look = (handleLook) => {
   console.log('look done');
 }
 
-exports.look = look;
+const back = (handleBack) => {
+  console.log('back');
+  handleBack();
+  console.log('back done');
+}
+exports.look = {
+  look,
+  back
+};
