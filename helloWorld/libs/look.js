@@ -9,7 +9,7 @@ const back = (handleBack) => {
   handleBack();
   console.log('back done');
 }
-exports.look = {
+exports.libs = {
   look,
   back
 };
