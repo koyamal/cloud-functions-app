@@ -1,7 +1,7 @@
 // const libs = require("./look");
 const { libs } = require("./look");
 console.log(libs);
-libs.libs.look(() => {
+libs.look(() => {
   console.log('This is look');
 });
 
