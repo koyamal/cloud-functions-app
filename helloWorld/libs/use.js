@@ -5,6 +5,6 @@ libs.look(() => {
   console.log('This is look');
 });
 
-libs.libs.back(() => {
+libs.back(() => {
   console.log('This is back');
 });
