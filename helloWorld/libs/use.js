@@ -7,3 +7,7 @@ libs.look(() => {
 libs.back(() => {
   console.log('This is back');
 });
+
+libs.back(() => {
+  console.log('This is back');
+});
