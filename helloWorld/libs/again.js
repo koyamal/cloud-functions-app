@@ -1,8 +1,8 @@
 const again = (handleAgain) => {
   console.log('again');
-  handleAgain();
+  handleAgain && handleAgain();
   console.log('again done');
 }
 
-again(() => {});
+again();
 exports.again = again;
