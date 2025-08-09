@@ -4,5 +4,5 @@ const again = (handleAgain) => {
   console.log('again done');
 }
 
-again();
+again(() => {});
 exports.again = again;
