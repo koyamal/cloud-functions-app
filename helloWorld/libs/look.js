@@ -1,11 +1,11 @@
 const look = (handleLook) => {
-  console.log('look');
+  console.log('look start');
   handleLook && handleLook();
   console.log('look done');
 }
 
 const back = (handleBack) => {
-  console.log('back');
+  console.log('back start');
   handleBack && handleBack();
   console.log('back done');
 }
