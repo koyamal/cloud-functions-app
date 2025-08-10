@@ -1,6 +1,6 @@
 const back = (handleBack) => {
   console.log('back');
-  handleBack();
+  handleBack && handleBack();
   console.log('back done');
 }
 
