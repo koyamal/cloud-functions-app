@@ -1,6 +1,6 @@
 const look = (handleLook) => {
   console.log('look');
-  handleLook();
+  handleLook && handleLook();
   console.log('look done');
 }
 
