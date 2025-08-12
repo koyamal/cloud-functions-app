@@ -1,6 +1,6 @@
 const look = (handleLook) => {
   console.log('look start');
-  handleLook && handleLook();
+  handleLook? handleLook(): console.log('no functions');
   console.log('look done');
 }
 
